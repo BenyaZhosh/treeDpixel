@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7641151600511675103
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c049fc5d851f49c1811650bb17f49b8, type: 3}
+  m_Name: DepthOutline
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 0
+  resolution:
+    overrideState: 1
+    value: {x: 640, y: 360}
+  thickness:
+    overrideState: 1
+    value: 1
+  threshold:
+    overrideState: 1
+    value: 0.96
+  strength:
+    overrideState: 1
+    value: 2
+  saturation:
+    overrideState: 1
+    value: 1
+  darkness:
+    overrideState: 1
+    value: 0.5
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: outline_profile
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: -7641151600511675103}
+  - {fileID: 5955851305338656808}
+--- !u!114 &5955851305338656808
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbed820b121534858900aa75a0ef9421, type: 3}
+  m_Name: NormalsOutline
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 0
+  resolution:
+    overrideState: 0
+    value: {x: 640, y: 360}
+  thickness:
+    overrideState: 0
+    value: 1
+  step:
+    overrideState: 0
+    value: 1
+  density:
+    overrideState: 0
+    value: 1
